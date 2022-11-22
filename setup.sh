@@ -15,7 +15,7 @@ system_app="linux-zen linux-firmware linux-zen-headers base base-devel grub efib
 user_app="intel-ucode git zip unzip p7zip curl wget xorg-server ttf-dejavu xclip \
     bash-completion dmidecode tmux xdg-utils dbus xdg-desktop-portal-gtk \
     pipewire pipewire-alsa pipewire-pulse wireplumber openssh \
-    bspwm sxhkd xorg-xsetroot rofi feh keepassxc libgit2 kitty dhcpcd"
+    bspwm sxhkd xorg-xsetroot rofi feh keepassxc libgit2 kitty dhcpcd xdotool"
 
 rm_services=()
 en_services=("systemd-networkd" "dhcpcd")
